@@ -59,7 +59,7 @@ function getS3Data(marker, html) {
   var s3_rest_url = createS3QueryUrl(marker);
   // set loading notice
   $('#listing')
-      .html('<img src="//assets.okfn.org/images/icons/ajaxload-circle.gif" />');
+      .html('<img src="loading.gif" />');
   $.get(s3_rest_url)
       .done(function(data) {
         // clear loading notice
@@ -84,8 +84,7 @@ function getS3Data(marker, html) {
         if (info.nextMarker != "null") {
           getS3Data(info.nextMarker, html);
         } else {
-          document.getElementById('listing').innerHTML =
-              '<pre>' + html + '</pre>';
+          document.getElementById('listing').innerHTML = html;
         }
       })
       .fail(function(error) {
@@ -198,12 +197,7 @@ function getInfoFromS3Data(xml) {
 // }
 function prepareTable(info) {
   var files = info.files.concat(info.directories), prefix = info.prefix;
-  var cols = [45, 30, 15];
   var content = [];
-  content.push(padRight('Last Modified', cols[1]) + '  ' +
-               padRight('Size', cols[2]) + 'Key \n');
-  content.push(new Array(cols[0] + cols[1] + cols[2] + 4).join('-') + '\n');
-
   // add ../ at the start of the dir listing, unless we are already at root dir
   if (prefix && prefix !== S3B_ROOT_DIR) {
     var up = prefix.replace(/\/$/, '').split('/').slice(0, -1).concat('').join(
@@ -216,7 +210,7 @@ function prepareTable(info) {
               keyText: '../',
               href: S3BL_IGNORE_PATH ? '?prefix=' + up : '../'
             },
-        row = renderRow(item, cols);
+        row = renderRow(item);
     content.push(row + '\n');
   }
 
@@ -234,7 +228,7 @@ function prepareTable(info) {
       item.href = BUCKET_WEBSITE_URL + '/' + encodeURIComponent(item.Key);
       item.href = item.href.replace(/%2F/g, '/');
     }
-    var row = renderRow(item, cols);
+    var row = renderRow(item);
     if (typeof EXCLUDE_FILE == 'undefined' || EXCLUDE_FILE != item.Key)
       content.push(row + '\n');
   });
@@ -242,11 +236,20 @@ function prepareTable(info) {
   return content.join('');
 }
 
-function renderRow(item, cols) {
-  var row = '';
-  row += padRight(item.LastModified, cols[1]) + '  ';
-  row += padRight(item.Size, cols[2]);
-  row += '<a href="' + item.href + '">' + item.keyText + '</a>';
+function renderRow(item) {
+  var row = '<tr>';
+  if (item.Type == 'directory') {
+      row +=  '<td><img src="folder.png" /></td>';
+  } else {
+      row +=  '<td></td>';
+  }
+  row += '<td><a href="' + item.href + '">' + item.keyText + '</a></td>';
+  if (item.Type == 'directory') {
+      row += '<td></td>';
+  } else {
+      row += '<td>' + item.Size + '</td>';
+  }
+  row += '<td>' + item.LastModified + '</td></tr>\n';
   return row;
 }
 

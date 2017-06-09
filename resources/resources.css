@@ -1,0 +1,12 @@
+body {
+    color: hsla(0, 0, 42, 1); //#6B6B6B
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+a {text-decoration: none;}
+
+#listing img {
+    max-height: 1.5rem;
+}
