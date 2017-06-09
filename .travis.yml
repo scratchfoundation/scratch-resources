@@ -1,0 +1,20 @@
+language: node_js
+cache:
+  directories:
+  - node_modules
+env:
+  global:
+  - S3_BUCKET_NAME=scratch-resources
+deploy:
+  - provider: s3
+    on:
+      repo: LLK/scratch-resources
+      branch:
+        - master
+    access_key_id: $AWS_ACCESS_KEY_ID_PRODUCTION
+    secret_access_key: $AWS_SECRET_ACCESS_KEY_PRODUCTION
+    bucket: $S3_BUCKET_NAME
+    skip_cleanup: true
+    acl: public_read
+    cache_control: "maxage=86400, s-maxage=31536000 no-transform"
+    local_dir: resources
