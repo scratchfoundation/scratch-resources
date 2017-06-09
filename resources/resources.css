@@ -7,6 +7,17 @@ body {
 
 a {text-decoration: none;}
 
+th {
+    text-align: left;
+}
+
+td {
+    min-width: 12rem;
+}
+td.type-icon {
+    min-width: 0;
+}
+
 #listing img {
     max-height: 1.5rem;
 }
