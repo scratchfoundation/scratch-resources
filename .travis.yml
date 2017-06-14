@@ -7,6 +7,8 @@ cache:
 env:
   global:
   - S3_BUCKET_NAME=scratch-resources
+before_deploy:
+  - npm run build
 deploy:
   - provider: s3
     on:
