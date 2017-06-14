@@ -1,0 +1,123 @@
+#!/usr/bin/env node
+
+/*
+    Generates json file defining the localized URLS for www. Assumes that
+    files will be hosted on the scratch-resources bucket within a www folder.
+    The key is based on the path to the file, for example the catch.pdf file 
+    with the cards folder would generate: 
+
+    '''
+    {
+        "en": {
+            "cards.catchLink" : "//scratch-resources.s3.amazonaws.com/www/cards/catch.pdf"
+        },
+        "es": {
+            "cards.catchLink" : "//scratch-resources.s3.amazonaws.com/www/cards/es/catch.pdf"
+        },
+        "sv": {
+            "cards.catchLink" : "//scratch-resources.s3.amazonaws.com/www/cards/sv/catch.pdf"
+        }
+        ... etc ...
+    }
+    '''
+*/
+
+// eslint-disable func-style
+// 
+var fs = require('fs');
+var path = require('path');
+var merge = require('lodash.merge');
+
+// -----------------------------------------------------------------------------
+// Utility function
+// -----------------------------------------------------------------------------
+
+const allFilesSync = (dir, fileList = []) => {
+    fs.readdirSync(dir).forEach(file => {
+        const filePath = path.join(dir, file);
+        if (!/\.DS*/.test(file)) {
+            fileList.push(
+                fs.statSync(filePath).isDirectory() ?
+                {
+                    [file]: allFilesSync(filePath)
+                } :
+                file
+            );
+        }
+    });
+    return fileList;
+};
+
+const fileId = (dir, file) => {
+    return dir + '.' + path.parse(file).name + "Link" ;
+};
+
+const bucketPath = (resource, locale, file) => {
+    const bucketRoot = 'https://resources.scratch.mit.edu/www/';
+    return path.join(bucketRoot, resource, locale, file);
+};
+
+const localeURL = (resource, locale, file) => {
+    return {[fileId(resource, file)]: bucketPath(resource, locale, file)};
+};
+
+const parseFileList = (dirData, data = {}) => {
+    // first level of data is the resource, e.g. 'cards', 'guides', etc.
+    dirData.forEach(resData => {
+        for (var resId in resData) {
+            var locales = resData[resId];
+            locales.forEach(localeData => { // eslint-disable-line no-loop-func
+                for (var locale in localeData) {
+                    var localeFiles = localeData[locale];
+                    var localeMap = {};
+                    localeFiles.forEach(f => { // eslint-disable-line no-loop-func
+                        merge(localeMap, localeURL(resId, locale, f));
+                    });
+                    merge(data, {[locale]: localeMap});
+                }
+            });
+        }
+    });
+    return data;
+};
+
+var writeJsonFile = function (outputDir, data) {
+    var fileName = path.join(outputDir, 'localized-urls.json');
+    fs.writeFileSync(fileName, JSON.stringify(data), 'utf8');
+};
+
+// -----------------------------------------------------------------------------
+// Main script
+// -----------------------------------------------------------------------------
+
+var args = process.argv.slice(2);
+
+if (!args.length) {
+    process.stdout.write('An input directory of resources, and a target output directory must be specified.\n');
+    process.exit(1);
+}
+
+var inputsDir = path.resolve(process.cwd(), args.shift());
+
+try {
+    fs.accessSync(inputsDir, fs.F_OK);
+} catch (err) {
+    process.stdout.write('Fatal error: No input directory.\n');
+    process.exit(1);
+}
+
+if (!args.length) {
+    process.stdout.write('A destination directory must be specified.\n');
+    process.exit(1);
+}
+var outputDir = path.resolve(process.cwd(), args[0]);
+try {
+    fs.accessSync(outputDir, fs.F_OK);
+} catch (err) {
+    // Doesn't exist - create it.
+    fs.mkdirSync(outputDir);
+}
+
+var allFiles = allFilesSync(inputsDir);
+var output = parseFileList(allFiles);
+writeJsonFile(outputDir, output);
