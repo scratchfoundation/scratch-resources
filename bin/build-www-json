@@ -22,8 +22,6 @@
     '''
 */
 
-// eslint-disable func-style
-// 
 var fs = require('fs');
 var path = require('path');
 var merge = require('lodash.merge');

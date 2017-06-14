@@ -6,7 +6,7 @@
     "lint": "eslint ./resources/js/list.js",
     "localize": "./bin/build-www-json ./resources/www/ ./resources/",
     "build": "./bin/make-zips.sh && npm run localize",
-    "test": "npm run lint && npm run build"
+    "test": "npm run lint"
   },
   "author": "Massachusetts Institute of Technology",
   "license": "BSD-3-Clause",
