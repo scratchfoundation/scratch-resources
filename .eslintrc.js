@@ -26,7 +26,7 @@ module.exports = {
         'no-invalid-this': [2],
         'no-iterator': [2],
         'no-lone-blocks': [2],
-        'no-loop-func': [2],
+        'no-loop-func': [1],
         'no-multi-spaces': [2],
         'no-multi-str': [2],
         'no-new': [1],
@@ -76,7 +76,7 @@ module.exports = {
         'comma-style': [2],
         'eol-last': [2, 'always'],
         'func-call-spacing': [2, 'never'],
-        'func-style': [2, 'declaration'],
+        'func-style': [1, 'expression'],
         'indent': [2, 4],
         'jsx-quotes': [2, 'prefer-double'],
         'key-spacing': [2, {

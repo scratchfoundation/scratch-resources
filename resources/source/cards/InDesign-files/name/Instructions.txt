@@ -1,0 +1,93 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: Name Cards.indd
+
+PACKAGE DATE: 11/23/16 9:27 AM
+Creation Date: 11/23/16
+Modification Date: 11/23/16
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: 
+Address: 
+
+
+
+
+
+Phone: 
+Fax: 
+Email: 
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :On Page1, 2, 3, 4, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, A, B
+
+FONTS
+5 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: BurbankBigRegular-Black; Type: OpenType Type 1, Status: OK
+- Name: MinionPro-Regular; Type: OpenType Type 1, Status: OK
+- Name: SourceSansPro-Black; Type: OpenType TrueType, Status: OK
+- Name: SourceSansPro-Bold; Type: OpenType TrueType, Status: OK
+- Name: SourceSansPro-Semibold; Type: OpenType TrueType, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 0 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 75.000; Lines/Inch: 70.000
+- Name and Type: Process Magenta; Angle: 15.000; Lines/Inch: 70.000
+- Name and Type: Process Yellow; Angle: 0.000; Lines/Inch: 70.000
+- Name and Type: Process Black; Angle: 45.000; Lines/Inch: 70.000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 75 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 0 use RGB color space
+
+
+PRINT SETTINGS
+PPD: Generic PostScript Printer, (llk-printer)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Center
+Print Layers: Visible & Printable Layers
+Printer's Marks: Crops
+Bleed: 0p0, 0p0, 0p0, 0p0
+Color: Composite RGB
+Trapping Mode: None
+Send Image Data: All
+OPI/DCS Image Replacement: No
+Page Size: Custom: 30p0 x 7 in
+Paper Dimensions: 51p0 x 11 in
+Orientation: Portrait
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. Name Cards.indd; type: Adobe InDesign publication; size: 13736K
+2. Name Cards.idml; type: InDesign Markup Document; size: 443K
+3. Name Cards.pdf; type: Adobe Acrobat Document; size: 3460K
+4. BurbankBigRegular-Black.otf; type: Font file; size: 110K
+5. MinionPro-Regular.otf; type: Font file; size: 213K
+6. SourceSansPro-Black.ttf; type: Font file; size: 144K
+7. SourceSansPro-Bold.ttf; type: Font file; size: 145K
+8. SourceSansPro-Semibold.ttf; type: Font file; size: 146K

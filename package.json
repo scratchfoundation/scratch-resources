@@ -4,7 +4,8 @@
   "description": "Source and published versions of Scratch materials and resources",
   "scripts": {
     "lint": "eslint ./resources/js/list.js",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "locale": "node ./bin/build-www-json ./resources/www/ ./resources/"
   },
   "author": "Massachusetts Institute of Technology",
   "license": "BSD-3-Clause",
@@ -14,6 +15,7 @@
     "url": "git+ssh://git@github.com/LLK/scratch-resources.git"
   },
   "devDependencies": {
-    "eslint": "^3.19.0"
+    "eslint": "3.19.0",
+    "lodash.merge": "4.6.0"
   }
 }
