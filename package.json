@@ -4,8 +4,9 @@
   "description": "Source and published versions of Scratch materials and resources",
   "scripts": {
     "lint": "eslint ./resources/js/list.js",
-    "test": "npm run lint",
-    "locale": "node ./bin/build-www-json ./resources/www/ ./resources/"
+    "localize": "./bin/build-www-json ./resources/www/ ./resources/",
+    "build": "./bin/make-zips.sh && npm run localize",
+    "test": "npm run lint && npm run build"
   },
   "author": "Massachusetts Institute of Technology",
   "license": "BSD-3-Clause",
