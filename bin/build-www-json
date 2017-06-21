@@ -24,6 +24,7 @@
 
 var fs = require('fs');
 var path = require('path');
+var url = require('url');
 var merge = require('lodash.merge');
 
 // -----------------------------------------------------------------------------
@@ -47,12 +48,12 @@ const allFilesSync = (dir, fileList = []) => {
 };
 
 const fileId = (dir, file) => {
-    return dir + '.' + path.parse(file).name + "Link" ;
+    return dir + '.' + path.parse(file).name + 'Link';
 };
 
 const bucketPath = (resource, locale, file) => {
     const bucketRoot = 'https://resources.scratch.mit.edu/www/';
-    return path.join(bucketRoot, resource, locale, file);
+    return url.resolve(bucketRoot, path.join(resource, locale, file));
 };
 
 const localeURL = (resource, locale, file) => {
