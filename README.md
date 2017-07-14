@@ -21,10 +21,9 @@ All the source files can be found within the `resources/source` directory. Withi
 
 ### Workflow ###
 If you are comfortable with github, forking repositories, and making pull requests, you can fork this repository and submit a 
-pull request with your translated files.
+pull request with your translated files. 
 
-Translated files for publication should be put in the appropriate language directory within the `www` directory. 
-The file also needs to have the same name as the original resource. For example, if you have a French translation of the 
+On github, translated files for publication should be put in the appropriate language directory within the `www` directory. The file also needs to have the same name as the original resource. For example, if you have a French translation of the 
 Catch Game Cards from the Activity Cards set, you would add your PDF file to `/www/cards/fr` with the name `catchCards.pdf`.
 
 **If you're not comfortable with github etc.**, You can download source files you want to translate from
