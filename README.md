@@ -24,7 +24,9 @@ All the source files can be found within the `resources/source` directory. Withi
 pull request with your translated files. 
 
 On github, translated files for publication should be put in the appropriate language directory within the `www` directory. The file also needs to have the same name as the original resource. For example, if you have a French translation of the 
-Catch Game Cards from the Activity Cards set, you would add your PDF file to `/www/cards/fr` with the name `catchCards.pdf`.
+Catch Game Cards from the Activity Cards set, you would add your PDF file to `resources/www/cards/fr` with the name `catchCards.pdf`.
+
+To test, run `npm run localize` and then look at the generated `resources/localized-urls.json` file to see if the new cards have been properly added. This requires Node v6. 
 
 **If you're not comfortable with github**, You can download source files you want to translate from
 https://resources.scratch.mit.edu/index.html. When you have a finished PDF file, send the file (or a link to a shared folder)
