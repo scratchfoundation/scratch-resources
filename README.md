@@ -28,6 +28,8 @@ Catch Game Cards from the Activity Cards set, you would add your PDF file to `re
 
 To test, run `npm run localize` and then look at the generated `resources/localized-urls.json` file to see if the new cards have been properly added. This requires Node v6. 
 
+To make updating translations easier, you can add your translated source files to the appropriate languate directory in `resources/source/cards/translations`. For example, if you have an ODP file for the French translation of Catch Game, you can add it to `resources/source/cards/translations/fr` with the name `catchCards.odp`. 
+
 **If you're not comfortable with github**, You can download source files you want to translate from
 https://resources.scratch.mit.edu/index.html. When you have a finished PDF file, send the file (or a link to a shared folder)
 to translate@scratch.mit.edu. 
