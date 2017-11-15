@@ -1,10 +1,10 @@
 ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
 
-PUBLICATION NAME: Pong Cards.indd
+PUBLICATION NAME: Pong Cards Revised.indd
 
-PACKAGE DATE: 11/23/16 5:11 PM
-Creation Date: 11/23/16
-Modification Date: 11/23/16
+PACKAGE DATE: Mon2Oct 11:58 AM
+Creation Date: Mon2Oct
+Modification Date: Mon2Oct
 
 CONTACT INFORMATION
 
@@ -52,8 +52,8 @@ COLORS AND INKS
 
 LINKS AND IMAGES
 (Missing & Embedded Links Only)
-Links and Images: 64 Links Found; 0 Modified, 0 Missing 0 Inaccessible
-Images: 0 Embedded, 0 use RGB color space
+Links and Images: 59 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 8 use RGB color space
 
 
 PRINT SETTINGS
@@ -83,9 +83,9 @@ Flip Mode: Off
 
 FILE PACKAGE LIST
 
-1. Pong Cards.indd; type: Adobe InDesign publication; size: 11396K
-2. Pong Cards.idml; type: InDesign Markup Document; size: 293K
-3. Pong Cards.pdf; type: Adobe Acrobat Document; size: 4004K
+1. Pong Cards Revised.indd; type: Adobe InDesign publication; size: 10828K
+2. Pong Cards Revised.idml; type: InDesign Markup Document; size: 276K
+3. Pong Cards Revised.pdf; type: Adobe Acrobat Document; size: 3823K
 4. BurbankBigRegular-Black.otf; type: Font file; size: 110K
 5. MinionPro-Regular.otf; type: Font file; size: 213K
 6. SourceSansPro-Black.ttf; type: Font file; size: 144K
