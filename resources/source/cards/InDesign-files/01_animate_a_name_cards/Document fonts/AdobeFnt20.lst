@@ -1,0 +1,153 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-Regular
+FamilyName:Source Sans Pro
+StyleName:Regular
+MenuName:Source Sans Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Source Sans Pro Regular
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/cards/InDesign/01_animate_a_name_cards/Document fonts/SourceSansPro-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:293516
+FileModTime:365418000
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Regular
+NameArray:0,Win,1,Source Sans Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-Bold
+FamilyName:Source Sans Pro
+StyleName:Bold
+MenuName:Source Sans Pro
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Source Sans Pro Bold
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/cards/InDesign/01_animate_a_name_cards/Document fonts/SourceSansPro-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:148932
+FileModTime:545963016
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Bold
+NameArray:0,Win,1,Source Sans Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BurbankBigRegular-Black
+FamilyName:Burbank Big Regular
+StyleName:Black
+MenuName:Burbank Big Rg Bk
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Burbank Big Regular Black
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/cards/InDesign/01_animate_a_name_cards/Document fonts/BurbankBigRegular-Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:113160
+FileModTime:545963016
+NameArray:0,Mac,4,Burbank Big Regular Black
+NameArray:0,Win,1,Burbank Big Rg Bk
+NameArray:0,Win,16,Burbank Big Regular
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-Black
+FamilyName:Source Sans Pro
+StyleName:Black
+MenuName:Source Sans Pro Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Source Sans Pro Black
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/cards/InDesign/01_animate_a_name_cards/Document fonts/SourceSansPro-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:148368
+FileModTime:545963016
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Black
+NameArray:0,Win,1,Source Sans Pro Black
+NameArray:0,Win,16,Source Sans Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/cards/InDesign/01_animate_a_name_cards/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:545963016
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-Semibold
+FamilyName:Source Sans Pro
+StyleName:Semibold
+MenuName:Source Sans Pro Semibold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Source Sans Pro Semibold
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/cards/InDesign/01_animate_a_name_cards/Document fonts/SourceSansPro-Semibold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:149636
+FileModTime:545963016
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Semibold
+NameArray:0,Win,1,Source Sans Pro Semibold
+NameArray:0,Win,16,Source Sans Pro
+%EndFont
+
