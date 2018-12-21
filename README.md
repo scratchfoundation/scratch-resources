@@ -2,6 +2,9 @@
 Source files and images for translators to translate Scratch materials, published
 files for www.
 
+## For Scratch Team ##
+After updating any content to be published make sure to flush the fastly cache so that new versions are served, as the resources are cached aggressively.
+
 ## For Translators ##
 This repository contains the input source files for Scratch resources like the
 [Scratch Activity Cards](https://resources.scratch.mit.edu/www/cards/en/ScratchCardsAll.pdf), 
