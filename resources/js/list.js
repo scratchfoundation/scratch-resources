@@ -125,29 +125,17 @@ function getInfoFromS3Data (xml) {
 function sortFunction (a, b) {
     switch (S3B_SORT) {
     case 'OLD2NEW':
-        return a.LastModified > b.LastModified ?
-                1 :
-                -1;
+        return a.LastModified > b.LastModified ? 1 : -1;
     case 'NEW2OLD':
-        return a.LastModified < b.LastModified ?
-                1 :
-                -1;
+        return a.LastModified < b.LastModified ? 1 : -1;
     case 'A2Z':
-        return a.Key < b.Key ?
-                1 :
-                -1;
+        return a.Key < b.Key ? 1 : -1;
     case 'Z2A':
-        return a.Key > b.Key ?
-                1 :
-                -1;
+        return a.Key > b.Key ? 1 : -1;
     case 'BIG2SMALL':
-        return a.Size < b.Size ?
-                1 :
-                -1;
+        return a.Size < b.Size ? 1 : -1;
     case 'SMALL2BIG':
-        return a.Size > b.Size ?
-                1 :
-                -1;
+        return a.Size > b.Size ? 1 : -1;
     }
 }
 
@@ -259,10 +247,10 @@ function getS3Data (marker, html) {
             getS3Data(info.nextMarker, html);
         }
     })
-    .fail(error => {
-        console.error(error); // eslint-disable-line no-console
-        $('#listing').html(`<strong>Error: ${error}</strong>`);
-    });
+        .fail(error => {
+            console.error(error); // eslint-disable-line no-console
+            $('#listing').html(`<strong>Error: ${error}</strong>`);
+        });
 }
 
 jQuery($ => { // eslint-disable-line no-unused-vars
