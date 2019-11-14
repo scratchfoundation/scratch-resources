@@ -12,7 +12,7 @@ and the published translations that are available on the new scratch website ([s
 
 ### Location of the Source Files ###
 All the source files can be found within the `resources/source` directory. Within that directory there are:
-* cards/: The source files for the set of Scratch Activity Cards published in 2016.
+* cards/: The source files for the set of Scratch 3.0 Activity Cards.
   * [InDesign-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards/InDesign-files): The inDesign source files for each set of cards. There are zip files for each set of cards so that you do not have to download the files individually:
     * [01_AnimateName.zip](https://scratch-resources.s3.amazonaws.com/source/cards/InDesign-files/01_AnimateName.zip)
     * [02_Character.zip](https://scratch-resources.s3.amazonaws.com/source/cards/InDesign-files/02_Character.zip)
@@ -27,7 +27,7 @@ All the source files can be found within the `resources/source` directory. Withi
     * [11_VideoSensing.zip](https://scratch-resources.s3.amazonaws.com/source/cards/InDesign-files/11_VideoSensing.zip)
 
   * [Powerpoint-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards/Powerpoint-files): Each of the card sets in powerpoint format for translators who do not have access to Adobe inDesign.
-* guides/: The source files for the set of Scratch Activity Guides published in 2016.
+* guides/: The source files for the set of Scratch Activity Guides.
   * [InDesign-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/guides/InDesign-files): The inDesign source files for each Guide. There are zip archives corresponding to each guide so you don't have to download the files individually:
     * [CatchEducatorGuide.zip](https://scratch-resources.s3.amazonaws.com/source/guides/InDesign-files/CatchEducatorGuide.zip)
     * [DanceEducatorGuide.zip](https://scratch-resources.s3.amazonaws.com/source/guides/InDesign-files/DanceEducatorGuide.zip)
@@ -41,7 +41,7 @@ All the source files can be found within the `resources/source` directory. Withi
     * [RaceGameEducatorGuide.zip](https://scratch-resources.s3.amazonaws.com/source/guides/InDesign-files/RaceGameEducatorGuide.zip)
     * [Story-EducatorGuide.zip](https://scratch-resources.s3.amazonaws.com/source/guides/InDesign-files/Story-EducatorGuide.zip)
   * [Powerpoint-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/guides/Powerpoint-files): Each guide in powerpoint format for translators who do not have access to Adobe inDesign.
-* [Old Scratch 2 Starter Cards](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards-old-scratch2/older-starter-cards): The Adobe Illustrator source files for the original set of Scratch 2.0 Getting Started Cards
+* [Old Scratch 2 Starter Cards](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards-old-scratch2/older-starter-cards): The Adobe Illustrator source files for the original set of Scratch 2 Getting Started Cards
 
 ### Workflow ###
 **If you are comfortable with github**, forking repositories, and making pull requests, you can fork this repository and submit a
