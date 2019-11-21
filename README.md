@@ -43,17 +43,16 @@ All the source files can be found within the `resources/source` directory. Withi
   * [Powerpoint-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/guides/Powerpoint-files): Each guide in powerpoint format for translators who do not have access to Adobe inDesign.
 * [Old Scratch 2 Starter Cards](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards-old-scratch2/older-starter-cards): The Adobe Illustrator source files for the original set of Scratch 2 Getting Started Cards
 
-### Workflow ###
-**If you are comfortable with github**, forking repositories, and making pull requests, you can fork this repository and submit a
-pull request with your translated files.
+### Submitting translations ###
+We are happy to accept your translation of the cards and post them on the Scratch Website as the cards for your language.
 
+**If you are comfortable with github**, you can follow the instructions below for [Submitting a PR with translations](https://github.com/LLK/scratch-resources#submitting-a-pr-with-translations).
+Otherwise send the translated files to translate@scratch.mit.edu. If it's just a single file, you can simply attach it to the message. If it's multiple files you might find it easier to put them in a folder on a shared drive (Google, dropbox etc), and include a link to the shared folder in your message to translate@scratch.mit.edu.
+
+#### Submitting a PR with translations ####
 On github, translated files for publication should be put in the appropriate language directory within the [`www` directory](https://github.com/LLK/scratch-resources/tree/master/resources/www). The file also needs to have the same name as the original resource. For example, if you have a French translation of the
 Catch Game Cards from the Activity Cards set, you would add your PDF file to `resources/www/cards/fr` with the name `catch-cards.pdf`. Check the names in the [`/en` folder](https://github.com/LLK/scratch-resources/tree/master/resources/www/cards/en) to see what the original file names.
 
 To test, run `npm run localize` and then look at the generated `resources/localized-urls.json` file to see if the new cards have been properly added. This requires Node v6.
 
 To make updating translations easier, you can add your translated source files to the appropriate language directory in `resources/source/translations`. For example, if you have an ODP file for the French translation of Catch Game, you can add it to `resources/source/translations/fr/cards` with the name `catch-cards.odp`. You may need to create the folder for your language.
-
-**If you're not comfortable with github**, You can download source files you want to translate from
-the links above. When you have a finished PDF file, send the file (or a link to a shared folder)
-to translate@scratch.mit.edu.
