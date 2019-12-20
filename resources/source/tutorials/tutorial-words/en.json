@@ -11,15 +11,15 @@
         "message": "Let’s explore!",
         "description": "A character is exploring a new background (in one case it's a city, in the other case it's underwater). Doesn't need to be exactly literal. Appears in Step 14 of Imagine a World and Step 8 of Talking Tales."
     },
-    "story.welcome-magic-school": {
+    "tell-a-story.welcome-magic-school": {
         "message": "Welcome to Magic School!",
         "description": "A wizard is saying this in a magical backdrop. Can be shortened to 'Welcome to school' or just 'Welcome' if needed. Step 4 of Create a Story"
     },
-    "story.going-on-quest": {
+    "tell-a-story.going-on-quest": {
         "message": "I’m going on a quest!",
         "description": "A student character is telling their professor that they are going to go on a quest. Step 7 of Create a Story"
     },
-    "fly.time-to-fly": {
+    "make-it-fly.time-to-fly": {
         "message": "Time to fly!",
         "description": "A character says this at the beginning of the Make it Fly activity. Doesn't need to be literal; just needs to express that the character is going to fly. Step 4 of Make it Fly."
     },
@@ -27,15 +27,15 @@
         "message": "Let’s go!",
         "description": "A character is inviting the audience to come with them. Step 5 of Create Animations That Talk and Step 9 of Code a Cartoon."
     },
-    "animations-that-talki-am-a-robot": {
+    "animations-that-talk.i-am-a-robot": {
         "message": "I am a robot",
         "description": "This is the first line of a 3-line song that a robot sings. Doesn't need to be literal; just needs to be playful. Step 8 of Create Animations That Talk."
     },
-    "animations-that-talki-like-to-dance-a-lot": {
+    "animations-that-talk.i-like-to-dance-a-lot": {
         "message": "I like to dance a lot",
         "description": "This is the second line of a 3-line song that a robot sings. Doesn't need to be literal; just needs to be playful. Step 8 of Create Animations That Talk."
     },
-    "animations-that-talkbeep-boop-bop": {
+    "animations-that-talk.beep-boop-bop": {
         "message": "Beep boop bop",
         "description": "This is the third line of a 3-line song that a robot sings. It is onomatopoeia. Doesn't need to be literal at all; just needs to be playful. Step 8 of Create Animations That Talk."
     },
@@ -47,27 +47,27 @@
         "message": "I like spinning!",
         "description": "A character is saying this as they spin around. Doesn't have to be literal; just needs to be fun and playful. Step 10 of Create Animations that Talk."
     },
-    "code-a-cartoon.hello-friends": {
+    "code-cartoon.hello-friends": {
         "message": "Hello friends!",
         "description": "A character saying hello to 3 other characters. Step 2 of Code a Cartoon."
     },
-    "code-a-cartoon.this-is-fun": {
+    "code-cartoon.this-is-fun": {
         "message": "This is fun!",
         "description": "A character is saying this as they jump up and down. Doesn't have to be literal; just needs to be fun and playful. Step 8 of Code a Cartoon."
     },
-    "animate-an-adventure.lets-collect-gems": {
+    "animate-an-adventure-game.lets-collect-gems": {
         "message": "Let’s collect gems!",
         "description": "A character says this at the beginning of the Animate an Adventure Game activity. Step 3 of Animate an Adventure Game."
     },
-    "talking-tales.no-place-like-home": {
+    "talking.no-place-like-home": {
         "message": "There's no place like home!",
         "description": "A dinosaur says this when it goes to the Jurassic backdrop. Doesn't need to be directly literal. Step 10 of Talking Tales."
     },
-    "talking-tales.check-out-moves": {
+    "talking.check-out-moves": {
         "message": "Check out these moves!",
         "description": "A dinosaur says this when it dances. Doesn't need to be literal; just needs to be something fun that could be said while dancing. Step 13 of Talking Tales."
     },
-    "talking-tales.whats-your-name": {
+    "talking.whats-your-name": {
         "message": "What's your name?",
         "description": "A character is asking the user to type in their name. Step 14 of Talking Tales."
     },
