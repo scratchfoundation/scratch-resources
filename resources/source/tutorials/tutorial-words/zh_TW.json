@@ -1,0 +1,78 @@
+{
+    "imagine.hello": {
+        "message": "哈囉！",
+        "description": "A character saying 'Hello!'. Step 2 of Imagine a World"
+    },
+    "imagine.imagineIf": {
+        "message": "想像一下，如果…",
+        "description": "A character is saying this. This phrase is meant to give the audience the idea that they could write sentences like 'Imagine if people could fly' or 'Imagine if animals could talk.' Step 2 of Imagine a World"
+    },
+    "imagine.letsExplore": {
+        "message": "讓我們一起探索！",
+        "description": "A character is exploring a new background (in one case it's a city, in the other case it's underwater). Doesn't need to be exactly literal. Appears in Step 14 of Imagine a World and Step 8 of Talking Tales."
+    },
+    "tell-a-story.welcomeMagicSchool": {
+        "message": "歡迎來到魔法學院！",
+        "description": "A wizard is saying this in a magical backdrop. Can be shortened to 'Welcome to school' or just 'Welcome' if needed. Step 4 of Create a Story"
+    },
+    "tell-a-story.goingOnQuest": {
+        "message": "我會努力學習的！",
+        "description": "A student character is telling their professor that they are going to go on a quest. Step 7 of Create a Story"
+    },
+    "make-it-fly.timeToFly": {
+        "message": "準備起飛！",
+        "description": "A character says this at the beginning of the Make it Fly activity. Doesn't need to be literal; just needs to express that the character is going to fly. Step 4 of Make it Fly."
+    },
+    "animations-that-talk.letsGo": {
+        "message": "快開始吧！",
+        "description": "A character is inviting the audience to come with them. Step 5 of Create Animations That Talk and Step 9 of Code a Cartoon."
+    },
+    "animations-that-talk.iAmARobot": {
+        "message": "偶數機器輪",
+        "description": "This is the first line of a 3-line song that a robot sings. Doesn't need to be literal; just needs to be playful. Step 8 of Create Animations That Talk."
+    },
+    "animations-that-talk.iLikeToDance": {
+        "message": "粉喜翻跳舞",
+        "description": "This is the second line of a 3-line song that a robot sings. Doesn't need to be literal; just needs to be playful. Step 8 of Create Animations That Talk."
+    },
+    "animations-that-talk.beepBoopBop": {
+        "message": "動次打次動次打次",
+        "description": "This is the third line of a 3-line song that a robot sings. It is nonsense words that are supposed to sound like the noises a robot makes. Step 8 of Create Animations That Talk."
+    },
+    "animations-that-talk.lookAtMe": {
+        "message": "挖賽~我變了！",
+        "description": "A character is saying this as they change color. Doesn't have to be literal; just needs to be fun and playful. Step 9 of Create Animations that Talk."
+    },
+    "animations-that-talk.iLikeToSpin": {
+        "message": "轉的我頭好暈啊！",
+        "description": "A character is saying this as they spin around. Doesn't have to be literal; just needs to be fun and playful. Step 10 of Create Animations that Talk."
+    },
+    "code-cartoon.helloFriends": {
+        "message": "大家好！",
+        "description": "A character saying hello to 3 other characters. Step 2 of Code a Cartoon."
+    },
+    "code-cartoon.thisIsFun": {
+        "message": "這很有趣喔！",
+        "description": "A character is saying this as they jump up and down. Doesn't have to be literal; just needs to be fun and playful. Step 8 of Code a Cartoon."
+    },
+    "animate-an-adventure-game.letsCollectGems": {
+        "message": "我們來收集寶石！",
+        "description": "A character says this at the beginning of the Animate an Adventure Game activity. Step 3 of Animate an Adventure Game."
+    },
+    "talking.noPlaceLikeHome": {
+        "message": "金窩銀窩不如自己家裡的狗窩！",
+        "description": "A dinosaur says this when it goes to the Jurassic backdrop. Doesn't need to be directly literal. Step 10 of Talking Tales."
+    },
+    "talking.checkOutMoves": {
+        "message": "看我的動感舞步！",
+        "description": "A dinosaur says this when it dances. Doesn't need to be literal; just needs to be something fun that could be said while dancing. Step 13 of Talking Tales."
+    },
+    "talking.whatsYourName": {
+        "message": "你叫什麼名字？",
+        "description": "A character is asking the user to type in their name. Step 14 of Talking Tales."
+    },
+    "tutorials.score": {
+        "message": "得分",
+        "description": "This is the name of a variable that will be counting points in a game. Appears in Pong Game, Clicker Game, Chase Game, Make it Fly, and Animate an Adventure Game."
+    }
+}
