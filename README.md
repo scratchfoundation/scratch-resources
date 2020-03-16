@@ -7,7 +7,7 @@ After updating any content to be published make sure to flush the fastly cache s
 
 ## For Translators ##
 This repository contains the input source files for Scratch resources like the
-[Scratch Activity Cards](https://resources.scratch.mit.edu/www/cards/en/ScratchCardsAll.pdf),
+[Scratch Activity Cards](https://resources.scratch.mit.edu/www/cards/en/scratch-cards-all.pdf),
 and the published translations that are available on the new scratch website ([scratch-www](https://github.com/LLK/scratch-www))
 
 ### Location of the Source Files ###
