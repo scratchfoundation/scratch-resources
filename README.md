@@ -35,6 +35,7 @@ All the source files can be found within the `resources/source` directory. Withi
     * [FashionEducatorGuide.zip](https://scratch-resources.s3.amazonaws.com/source/guides/InDesign-files/FashionEducatorGuide.zip)
     * [FlyEducatorGuide.zip](https://scratch-resources.s3.amazonaws.com/source/guides/InDesign-files/FlyEducatorGuide.zip)
     * [Hide-and-Seek-EducatorGuide.zip](https://scratch-resources.s3.amazonaws.com/source/guides/InDesign-files/Hide-and-Seek-EducatorGuide.zip)
+    * [ImagineEducatorGuide.zip](https://scratch-resources.s3.amazonaws.com/source/guides/InDesign-files/ImagineEducatorGuide.zip)
     * [MusicEducatorGuide.zip](https://scratch-resources.s3.amazonaws.com/source/guides/InDesign-files/MusicEducatorGuide.zip)
     * [NameEducatorGuide.zip](https://scratch-resources.s3.amazonaws.com/source/guides/InDesign-files/NameEducatorGuide.zip)
     * [PetEducatorGuide.zip](https://scratch-resources.s3.amazonaws.com/source/guides/InDesign-files/PetEducatorGuide.zip)
