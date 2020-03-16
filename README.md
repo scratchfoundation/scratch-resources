@@ -13,7 +13,7 @@ and the published translations that are available on the new scratch website ([s
 ### Location of the Source Files ###
 All the source files can be found within the `resources/source` directory. Within that directory there are:
 * cards/: The source files for the set of Scratch 3.0 Activity Cards.
-  * [InDesign-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards/InDesign-files): The inDesign source files for each set of cards. There are zip files for each set of cards so that you do not have to download the files individually:
+  * [InDesign-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards/InDesign-files): The InDesign source files for each set of cards. There are zip files for each set of cards so that you do not have to download the files individually:
     * [01_AnimateName.zip](https://scratch-resources.s3.amazonaws.com/source/cards/InDesign-files/01_AnimateName.zip)
     * [02_Character.zip](https://scratch-resources.s3.amazonaws.com/source/cards/InDesign-files/02_Character.zip)
     * [03_Chase.zip](https://scratch-resources.s3.amazonaws.com/source/cards/InDesign-files/03_Chase.zip)
@@ -25,8 +25,9 @@ All the source files can be found within the `resources/source` directory. Withi
     * [09_Virtual-Pet.zip](https://scratch-resources.s3.amazonaws.com/source/cards/InDesign-files/09_Virtual-Pet.zip)
     * [10_Catch.zip](https://scratch-resources.s3.amazonaws.com/source/cards/InDesign-files/10_Catch.zip)
     * [11_VideoSensing.zip](https://scratch-resources.s3.amazonaws.com/source/cards/InDesign-files/11_VideoSensing.zip)
+    * [12_Imagine.zip](https://scratch-resources.s3.amazonaws.com/source/cards/InDesign-files/12_Imagine.zip)
 
-  * [Powerpoint-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards/Powerpoint-files): Each of the card sets in powerpoint format for translators who do not have access to Adobe inDesign.
+  * [Powerpoint-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards/Powerpoint-files): Each of the card sets in PowerPoint format for translators who do not have access to Adobe InDesign.
 * guides/: The source files for the set of Scratch Activity Guides.
   * [InDesign-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/guides/InDesign-files): The inDesign source files for each Guide. There are zip archives corresponding to each guide so you don't have to download the files individually:
     * [CatchEducatorGuide.zip](https://scratch-resources.s3.amazonaws.com/source/guides/InDesign-files/CatchEducatorGuide.zip)
