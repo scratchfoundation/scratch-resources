@@ -12,7 +12,8 @@ and the published translations that are available on the new scratch website ([s
 
 ### Location of the Source Files ###
 All the source files can be found within the `resources/source` directory. Within that directory there are:
-* cards/: The source files for the set of Scratch 3.0 Activity Cards. We provide the files in two different formats: (1) InDesign files and (2) PowerPoint files.
+* cards/: The source files for the set of Scratch 3.0 Activity Cards. We provide the files in two different formats: (1) InDesign files, (2) PowerPoint files, (3) [Google Slides](https://drive.google.com/drive/folders/1dlxzQzsWqEdQpA9r7m0PZr_KnY0jA4D6). 
+
   * [InDesign-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards/InDesign-files): The InDesign source files for each set of cards. There are zip files for each set of cards so that you do not have to download the files individually:
     * [01_AnimateName.zip](https://scratch-resources.s3.amazonaws.com/source/cards/InDesign-files/01_AnimateName.zip)
     * [02_Character.zip](https://scratch-resources.s3.amazonaws.com/source/cards/InDesign-files/02_Character.zip)
