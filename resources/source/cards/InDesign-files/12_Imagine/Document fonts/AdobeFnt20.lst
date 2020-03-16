@@ -1,0 +1,179 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Medium
+FamilyName:Roboto
+StyleName:Medium
+MenuName:Roboto Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Roboto Medium
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/Cards-Imagine-If Folder/Document fonts/Roboto-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:172064
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto Medium
+NameArray:0,Win,1,Roboto Medium
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/kosiecki/Desktop/Cards-Imagine-If Folder/Document fonts/AdobeFnt20.lst
+FileLength:3733
+FileModTime:598223877
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+MenuName:Roboto
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Roboto
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/Cards-Imagine-If Folder/Document fonts/Roboto-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:171676
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-MediumItalic
+FamilyName:Roboto
+StyleName:Medium Italic
+MenuName:Roboto Medium
+StyleBits:1
+WeightClass:500
+WidthClass:5
+AngleClass:1
+FullName:Roboto Medium Italic
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/Cards-Imagine-If Folder/Document fonts/Roboto-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:176864
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto Medium Italic
+NameArray:0,Win,1,Roboto Medium
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/Cards-Imagine-If Folder/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:545945016
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-Black
+FamilyName:Montserrat
+StyleName:Black
+MenuName:Montserrat Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Montserrat Black
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/Cards-Imagine-If Folder/Document fonts/Montserrat-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:275192
+FileModTime:345445200
+NameArray:0,Mac,4,Montserrat Black
+NameArray:0,Win,1,Montserrat Black
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+MenuName:Roboto
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Roboto Bold
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/Cards-Imagine-If Folder/Document fonts/Roboto-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:170760
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto Bold
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Black
+FamilyName:Roboto
+StyleName:Black
+MenuName:Roboto Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Roboto Black
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/Cards-Imagine-If Folder/Document fonts/Roboto-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:171480
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto Black
+NameArray:0,Win,1,Roboto Black
+NameArray:0,Win,16,Roboto
+%EndFont
+
