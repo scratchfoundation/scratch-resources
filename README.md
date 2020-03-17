@@ -16,7 +16,7 @@ All the source files can be found within the `resources/source` directory. Withi
 
   * [InDesign-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards/InDesign-files): The InDesign source files for each set of cards. There are zip files for each set of cards so that you do not have to download the files individually.
   * [Powerpoint-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards/Powerpoint-files): Each of the card sets in PowerPoint format for translators to download and edit.
-  * [Google-Slides](https://drive.google.com/drive/folders/1dlxzQzsWqEdQpA9r7m0PZr_KnY0jA4D6):The cards are also available as Google Slides for translators to make a copy and edit. 
+  * [Google-Slides](https://drive.google.com/drive/folders/1dlxzQzsWqEdQpA9r7m0PZr_KnY0jA4D6): The cards are also available as Google Slides for translators to make a copy and edit. 
   
 * **guides**: The source files for the set of Scratch Educator Guides. We provide the guide source files in two different formats: (1) [InDesign-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/guides/InDesign-files), (2) [PowerPoint files](https://github.com/LLK/scratch-resources/tree/master/resources/source/guides/Powerpoint-files). 
   * [InDesign-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/guides/InDesign-files): The InDesign source files for each educator guide. There are zip archives corresponding to each guide so you don't have to download the files individually.
