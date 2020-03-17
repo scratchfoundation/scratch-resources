@@ -1,0 +1,199 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Medium
+FamilyName:Roboto
+StyleName:Medium
+MenuName:Roboto Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Roboto Medium
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/EDUCATOR GUIDES-TRANSLATION/NameEducatorGuide Folder/Document fonts/Roboto-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:172064
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto Medium
+NameArray:0,Win,1,Roboto Medium
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Light
+FamilyName:Roboto
+StyleName:Light
+MenuName:Roboto Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Roboto Light
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/EDUCATOR GUIDES-TRANSLATION/NameEducatorGuide Folder/Document fonts/Roboto-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:170420
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto Light
+NameArray:0,Win,1,Roboto Light
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/kosiecki/Desktop/EDUCATOR GUIDES-TRANSLATION/NameEducatorGuide Folder/Document fonts/AdobeFnt20.lst
+FileLength:4665
+FileModTime:595474947
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+MenuName:Roboto
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Roboto
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/EDUCATOR GUIDES-TRANSLATION/NameEducatorGuide Folder/Document fonts/Roboto-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:171676
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-SemiBold
+FamilyName:Montserrat
+StyleName:SemiBold
+MenuName:Montserrat SemiBold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Montserrat SemiBold
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/EDUCATOR GUIDES-TRANSLATION/NameEducatorGuide Folder/Document fonts/Montserrat-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:260936
+FileModTime:345445200
+NameArray:0,Mac,4,Montserrat SemiBold
+NameArray:0,Win,1,Montserrat SemiBold
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-Black
+FamilyName:Montserrat
+StyleName:Black
+MenuName:Montserrat Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Montserrat Black
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/EDUCATOR GUIDES-TRANSLATION/NameEducatorGuide Folder/Document fonts/Montserrat-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:275192
+FileModTime:345445200
+NameArray:0,Mac,4,Montserrat Black
+NameArray:0,Win,1,Montserrat Black
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-Regular
+FamilyName:Montserrat
+StyleName:Regular
+MenuName:Montserrat
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Montserrat Regular
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/EDUCATOR GUIDES-TRANSLATION/NameEducatorGuide Folder/Document fonts/Montserrat-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:263192
+FileModTime:345445200
+NameArray:0,Mac,4,Montserrat Regular
+NameArray:0,Win,1,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Italic
+FamilyName:Roboto
+StyleName:Italic
+MenuName:Roboto
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Roboto Italic
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/EDUCATOR GUIDES-TRANSLATION/NameEducatorGuide Folder/Document fonts/Roboto-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:173932
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto Italic
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+MenuName:Roboto
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Roboto Bold
+WritingScript:Roman
+OutlineFileName:/Users/kosiecki/Desktop/EDUCATOR GUIDES-TRANSLATION/NameEducatorGuide Folder/Document fonts/Roboto-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:170760
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto Bold
+NameArray:0,Win,1,Roboto
+%EndFont
+

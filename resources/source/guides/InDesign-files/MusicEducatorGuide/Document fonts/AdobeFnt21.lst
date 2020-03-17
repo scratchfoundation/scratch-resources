@@ -1,0 +1,185 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Medium
+FamilyName:Roboto
+StyleName:Medium
+MenuName:Roboto Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Roboto Medium
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Downloads/drive-download-20200317T005834Z-001/Music-EducatorGuide-FF/Document fonts/Roboto-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:172064
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto Medium
+NameArray:0,Win,1,Roboto Medium
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Light
+FamilyName:Roboto
+StyleName:Light
+MenuName:Roboto Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Roboto Light
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Downloads/drive-download-20200317T005834Z-001/Music-EducatorGuide-FF/Document fonts/Roboto-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:170420
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto Light
+NameArray:0,Win,1,Roboto Light
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/natalier/Downloads/drive-download-20200317T005834Z-001/Music-EducatorGuide-FF/Document fonts/AdobeFnt20.lst
+FileLength:4170
+FileModTime:595474933
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/natalier/Downloads/drive-download-20200317T005834Z-001/Music-EducatorGuide-FF/Document fonts/AdobeFnt21.lst
+FileLength:4226
+FileModTime:606103791
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+MenuName:Roboto
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Roboto
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Downloads/drive-download-20200317T005834Z-001/Music-EducatorGuide-FF/Document fonts/Roboto-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:171676
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Montserrat-Black
+FamilyName:Montserrat
+StyleName:Black
+MenuName:Montserrat Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Montserrat Black
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Downloads/drive-download-20200317T005834Z-001/Music-EducatorGuide-FF/Document fonts/Montserrat-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:275192
+FileModTime:345445200
+NameArray:0,Mac,4,Montserrat Black
+NameArray:0,Win,1,Montserrat Black
+NameArray:0,Win,16,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Italic
+FamilyName:Roboto
+StyleName:Italic
+MenuName:Roboto
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Roboto Italic
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Downloads/drive-download-20200317T005834Z-001/Music-EducatorGuide-FF/Document fonts/Roboto-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:173932
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto Italic
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:SourceSansPro-Semibold
+FamilyName:Source Sans Pro
+StyleName:Semibold
+MenuName:Source Sans Pro Semibold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Source Sans Pro Semibold
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Downloads/drive-download-20200317T005834Z-001/Music-EducatorGuide-FF/Document fonts/SourceSansPro-Semibold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:149636
+FileModTime:575911394
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Semibold
+NameArray:0,Win,1,Source Sans Pro Semibold
+NameArray:0,Win,16,Source Sans Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+MenuName:Roboto
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Roboto Bold
+WritingScript:Roman
+OutlineFileName:/Users/natalier/Downloads/drive-download-20200317T005834Z-001/Music-EducatorGuide-FF/Document fonts/Roboto-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:170760
+FileModTime:379400400
+NameArray:0,Mac,4,Roboto Bold
+NameArray:0,Win,1,Roboto
+%EndFont
+
