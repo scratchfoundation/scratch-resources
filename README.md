@@ -20,8 +20,8 @@ All the source files can be found within the `resources/source` directory. Withi
   
 * **guides**: The source files for the set of Scratch Educator Guides. We provide the guide source files in two different formats: (1) [InDesign-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/guides/InDesign-files), (2) [PowerPoint files](https://github.com/LLK/scratch-resources/tree/master/resources/source/guides/Powerpoint-files). 
   * [InDesign-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/guides/InDesign-files): The InDesign source files for each educator guide. There are zip archives corresponding to each guide so you don't have to download the files individually.
-* [Powerpoint-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/guides/Powerpoint-files): Each guide in PowerPoint format for translators who do not have access to Adobe inDesign.
-* [Old Scratch 2 Starter Cards](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards-old-scratch2/older-starter-cards): The Adobe Illustrator source files for the original set of Scratch 2 Getting Started Cards
+  * [Powerpoint-files](https://github.com/LLK/scratch-resources/tree/master/resources/source/guides/Powerpoint-files): Each guide in PowerPoint format for translators who do not have access to Adobe inDesign.
+  * [Old Scratch 2 Starter Cards](https://github.com/LLK/scratch-resources/tree/master/resources/source/cards-old-scratch2/older-starter-cards): The Adobe Illustrator source files for the original set of Scratch 2 Getting Started Cards
 
 ### Submitting translations ###
 We are happy to accept your translation of the cards and post them on the Scratch Website as the cards for your language.
