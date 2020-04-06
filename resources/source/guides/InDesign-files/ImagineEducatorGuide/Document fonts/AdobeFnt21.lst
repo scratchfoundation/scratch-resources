@@ -14,12 +14,12 @@ WidthClass:5
 AngleClass:0
 FullName:Roboto Medium
 WritingScript:Roman
-OutlineFileName:/Users/natalier/Downloads/Imagine-EducatorGuide-FF/Document fonts/Roboto-Medium.ttf
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/guides/InDesign-files/ImagineEducatorGuide/Document fonts/Roboto-Medium.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:172064
-FileModTime:379400400
+FileModTime:606100107
 NameArray:0,Mac,4,Roboto Medium
 NameArray:0,Win,1,Roboto Medium
 NameArray:0,Win,16,Roboto
@@ -38,12 +38,12 @@ WidthClass:5
 AngleClass:0
 FullName:Roboto Light
 WritingScript:Roman
-OutlineFileName:/Users/natalier/Downloads/Imagine-EducatorGuide-FF/Document fonts/Roboto-Light.ttf
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/guides/InDesign-files/ImagineEducatorGuide/Document fonts/Roboto-Light.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:170420
-FileModTime:379400400
+FileModTime:606100107
 NameArray:0,Mac,4,Roboto Light
 NameArray:0,Win,1,Roboto Light
 NameArray:0,Win,16,Roboto
@@ -52,17 +52,17 @@ NameArray:0,Win,16,Roboto
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
-OutlineFileName:/Users/natalier/Downloads/Imagine-EducatorGuide-FF/Document fonts/AdobeFnt20.lst
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/guides/InDesign-files/ImagineEducatorGuide/Document fonts/AdobeFnt20.lst
 FileLength:3427
-FileModTime:595479270
+FileModTime:606100107
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
-OutlineFileName:/Users/natalier/Downloads/Imagine-EducatorGuide-FF/Document fonts/AdobeFnt21.lst
-FileLength:3520
-FileModTime:600900423
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/guides/InDesign-files/ImagineEducatorGuide/Document fonts/AdobeFnt21.lst
+FileLength:4000
+FileModTime:606103003
 %EndFont
 
 %BeginFont
@@ -78,12 +78,12 @@ WidthClass:5
 AngleClass:0
 FullName:Roboto
 WritingScript:Roman
-OutlineFileName:/Users/natalier/Downloads/Imagine-EducatorGuide-FF/Document fonts/Roboto-Regular.ttf
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/guides/InDesign-files/ImagineEducatorGuide/Document fonts/Roboto-Regular.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:171676
-FileModTime:379400400
+FileModTime:606100107
 NameArray:0,Mac,4,Roboto
 NameArray:0,Win,1,Roboto
 %EndFont
@@ -101,12 +101,12 @@ WidthClass:5
 AngleClass:0
 FullName:Montserrat Black
 WritingScript:Roman
-OutlineFileName:/Users/natalier/Downloads/Imagine-EducatorGuide-FF/Document fonts/Montserrat-Black.ttf
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/guides/InDesign-files/ImagineEducatorGuide/Document fonts/Montserrat-Black.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:275192
-FileModTime:345445200
+FileModTime:606100107
 NameArray:0,Mac,4,Montserrat Black
 NameArray:0,Win,1,Montserrat Black
 NameArray:0,Win,16,Montserrat
@@ -125,12 +125,12 @@ WidthClass:5
 AngleClass:1
 FullName:Roboto Italic
 WritingScript:Roman
-OutlineFileName:/Users/natalier/Downloads/Imagine-EducatorGuide-FF/Document fonts/Roboto-Italic.ttf
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/guides/InDesign-files/ImagineEducatorGuide/Document fonts/Roboto-Italic.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:173932
-FileModTime:379400400
+FileModTime:606100107
 NameArray:0,Mac,4,Roboto Italic
 NameArray:0,Win,1,Roboto
 %EndFont
@@ -148,12 +148,12 @@ WidthClass:5
 AngleClass:0
 FullName:Roboto Bold
 WritingScript:Roman
-OutlineFileName:/Users/natalier/Downloads/Imagine-EducatorGuide-FF/Document fonts/Roboto-Bold.ttf
+OutlineFileName:/Users/natalier/Documents/GitHub/scratch-resources/resources/source/guides/InDesign-files/ImagineEducatorGuide/Document fonts/Roboto-Bold.ttf
 DataFormat:sfntData
 hasSVG:no
 VariableFontType:NonVariableFont
 FileLength:170760
-FileModTime:379400400
+FileModTime:606100107
 NameArray:0,Mac,4,Roboto Bold
 NameArray:0,Win,1,Roboto
 %EndFont
