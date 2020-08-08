@@ -16,7 +16,7 @@
         "description": "A wizard is saying this in a magical backdrop. Can be shortened to 'Welcome to school' or just 'Welcome' if needed. Step 4 of Create a Story"
     },
     "tell-a-story.goingOnQuest": {
-        "message": "Ik ga op zoek!",
+        "message": "Ik ga op onderzoek uit!",
         "description": "A student character is telling their professor that they are going to go on a quest. Step 7 of Create a Story"
     },
     "make-it-fly.timeToFly": {
@@ -56,7 +56,7 @@
         "description": "A character is saying this as they jump up and down. Doesn't have to be literal; just needs to be fun and playful. Step 8 of Code a Cartoon."
     },
     "animate-an-adventure-game.letsCollectGems": {
-        "message": "Laten we pareltjes gaan verzamelen!",
+        "message": "Laten we pareltjes verzamelen!",
         "description": "A character says this at the beginning of the Animate an Adventure Game activity. Step 3 of Animate an Adventure Game."
     },
     "talking.noPlaceLikeHome": {
@@ -64,7 +64,7 @@
         "description": "A dinosaur says this when it goes to the Jurassic backdrop. Doesn't need to be directly literal. Step 10 of Talking Tales."
     },
     "talking.checkOutMoves": {
-        "message": "Bekijk deze films!",
+        "message": "Bekijk deze moves!",
         "description": "A dinosaur says this when it dances. Doesn't need to be literal; just needs to be something fun that could be said while dancing. Step 13 of Talking Tales."
     },
     "talking.whatsYourName": {
@@ -74,5 +74,9 @@
     "tutorials.score": {
         "message": "Score",
         "description": "This is the name of a variable that will be counting points in a game. Appears in Pong Game, Clicker Game, Chase Game, Make it Fly, and Animate an Adventure Game."
+    },
+    "tutorials.letsParty": {
+        "message": "Tijd voor een feestje!",
+        "description": "In the 'Getting Started' video tutorial, a dinosaur says this and then two dinosaurs dance. Doesn't need to be literal; could be 'Dance Party!', 'Party time!', 'Time to party!', or something similar."
     }
 }
