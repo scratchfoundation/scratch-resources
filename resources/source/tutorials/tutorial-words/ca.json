@@ -74,5 +74,9 @@
     "tutorials.score": {
         "message": "Puntuació",
         "description": "This is the name of a variable that will be counting points in a game. Appears in Pong Game, Clicker Game, Chase Game, Make it Fly, and Animate an Adventure Game."
+    },
+    "tutorials.letsParty": {
+        "message": "Anem de festa!",
+        "description": "In the 'Getting Started' video tutorial, a dinosaur says this and then two dinosaurs dance. Doesn't need to be literal; could be 'Dance Party!', 'Party time!', 'Time to party!', or something similar."
     }
 }
