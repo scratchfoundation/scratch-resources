@@ -29,6 +29,7 @@ commands:
       - run:
           name: Setup
           command: |
+            npm install
             npm run build 
 
 jobs:
