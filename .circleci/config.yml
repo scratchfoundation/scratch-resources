@@ -1,24 +1,26 @@
 
 version: 2.1
-
+orbs:
+  aws-s3: circleci/aws-s3@3.0
 executors:
   default-executor:
     docker:
       - image: "cimg/node:lts"
+    working_directory: ~/project
     resource_class: large
+
 commands:
   restore_test_cache:
     steps:
       - restore_cache:
           keys:
-            - v1-test-cache-{{ .Environment.CIRCLE_JOB }}-{{ .Branch }}-{{ .Revision }}
-            - v1-test-cache-{{ .Environment.CIRCLE_JOB }}-{{ .Branch }}
-            - v1-test-cache-
+            - v1-deps-{{ .Environment.CIRCLE_JOB }}-{{ .Branch }}-{{ .Revision }}
+            - v1-deps-{{ .Environment.CIRCLE_JOB }}-{{ .Branch }}
+            - v1-deps-
   save_test_cache:
     steps:
       - save_cache:
-          when: always
-          key: v1-test-cache-{{ .Environment.CIRCLE_JOB }}-{{ .Branch }}-{{ .Revision }}
+          key: v1-deps-{{ .Environment.CIRCLE_JOB }}-{{ .Branch }}-{{ .Revision }}
           paths:
             - node_modules
   setup:
@@ -33,7 +35,6 @@ commands:
           name: Deploy
           command: |
 
-
 jobs:
   build-and-test:
     executor: default-executor
@@ -41,22 +42,31 @@ jobs:
       - checkout
       - restore_test_cache
       - setup
-      - test
       - save_test_cache
+      - persist_to_workspace:
+          root: ~/project
+          paths: .
   deploy:
     executor: default-executor
     steps:
-      - checkout
-      - restore_test_cache
-      - setup
-      - deploy
-      - after_deploy
-      - save_test_cache
+      - attach_workspace:
+          at: ~/project
+      - aws-s3/sync:
+          arguments: |
+            --cache-control "maxage=86400, s-maxage=31536000 no-transform"
+          aws-access-key-id: AWS_ACCESS_KEY_ID
+          aws-region: AWS_DEFAULT_REGION
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEYgit
+          from: resources
+          to: 's3://scratch-resources-test'
 workflows:
   build-and-test-workflow:
     when:
       not:
-        and:
+        or:
+          - equal: [ master, <<pipeline.git.branch>> ]
+          - equal: [ develop, <<pipeline.git.branch>> ]
+          - equal: [ hotfix/*, <<pipeline.git.branch>> ]
           - equal: [ tsm/circleci, <<pipeline.git.branch>> ]
     jobs:
       - build-and-test
@@ -73,6 +83,6 @@ workflows:
       - build-and-test
       - deploy:
           context:
-            - scratch-npm-creds
+            - scratch-aws-creds
           requires:
             - build-and-test
