@@ -2,6 +2,7 @@
 version: 2.1
 orbs:
   aws-s3: circleci/aws-s3@3.0
+  fastly: bankrate/fastly@0.1.0
 executors:
   default-executor:
     docker:
@@ -29,11 +30,6 @@ commands:
           name: Setup
           command: |
             npm run build 
-  deploy:
-    steps:
-      - run:
-          name: Deploy
-          command: |
 
 jobs:
   build-and-test:
@@ -56,7 +52,7 @@ jobs:
             --cache-control "maxage=86400, s-maxage=31536000 no-transform"
           aws-access-key-id: AWS_ACCESS_KEY_ID
           aws-region: AWS_DEFAULT_REGION
-          aws-secret-access-key: AWS_SECRET_ACCESS_KEYgit
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           from: resources
           to: 's3://scratch-resources-test'
 workflows:
