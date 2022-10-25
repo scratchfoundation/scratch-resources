@@ -40,7 +40,7 @@ jobs:
       - restore_test_cache
       - setup
       - save_test_cache
-      
+
   deploy:
     executor: default-executor
     steps:
@@ -48,11 +48,12 @@ jobs:
           at: ~/project
       - aws-s3/sync:
           arguments: |
+            --acl public-read
             --cache-control "maxage=86400, s-maxage=31536000 no-transform"
           aws-access-key-id: AWS_ACCESS_KEY_ID
           aws-region: AWS_DEFAULT_REGION
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
-          from: resources
+          from: ./resources
           to: 's3://scratch-resources-test'
 workflows:
   build-and-test-workflow:
