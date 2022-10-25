@@ -40,9 +40,7 @@ jobs:
       - restore_test_cache
       - setup
       - save_test_cache
-      - persist_to_workspace:
-          root: ~/project
-          paths: .
+      
   deploy:
     executor: default-executor
     steps:
