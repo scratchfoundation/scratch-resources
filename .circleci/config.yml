@@ -1,0 +1,84 @@
+
+version: 2.1
+orbs:
+  aws-s3: circleci/aws-s3@3.0
+  fastly: bankrate/fastly@0.1.0
+executors:
+  default-executor:
+    docker:
+      - image: "cimg/node:lts"
+    working_directory: ~/project
+    resource_class: large
+
+commands:
+  restore_test_cache:
+    steps:
+      - restore_cache:
+          keys:
+            - v1-deps-{{ .Environment.CIRCLE_JOB }}-{{ .Branch }}-{{ .Revision }}
+            - v1-deps-{{ .Environment.CIRCLE_JOB }}-{{ .Branch }}
+            - v1-deps-
+  save_test_cache:
+    steps:
+      - save_cache:
+          key: v1-deps-{{ .Environment.CIRCLE_JOB }}-{{ .Branch }}-{{ .Revision }}
+          paths:
+            - node_modules
+  setup:
+    steps:
+      - run:
+          name: Setup
+          command: |
+            npm install
+            npm run build
+
+jobs:
+  build-and-test:
+    executor: default-executor
+    steps:
+      - checkout
+      - restore_test_cache
+      - setup
+      - save_test_cache
+      - persist_to_workspace:
+          root: ~/project
+          paths: .
+  deploy:
+    executor: default-executor
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - aws-s3/sync:
+          arguments: |
+            --cache-control "maxage=86400, s-maxage=31536000 no-transform"
+          aws-access-key-id: AWS_ACCESS_KEY_ID
+          aws-region: AWS_DEFAULT_REGION
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+          from: resources
+          to: 's3://scratch-resources-test'
+workflows:
+  build-and-test-workflow:
+    when:
+      not:
+        or:
+          - equal: [ master, <<pipeline.git.branch>> ]
+          - equal: [ develop, <<pipeline.git.branch>> ]
+          - equal: [ hotfix/*, <<pipeline.git.branch>> ]
+    jobs:
+      - build-and-test
+
+  deploy-workflow:
+    when:
+      or:
+        - equal: [ master, <<pipeline.git.branch>> ]
+        - equal: [ develop, <<pipeline.git.branch>> ]
+        - equal: [ hotfix/*, <<pipeline.git.branch>> ]
+        - equal: [ tsm/circleci, <<pipeline.git.branch>> ]
+
+    jobs:
+      - build-and-test
+      - deploy:
+          context:
+            - scratch-aws-creds
+          requires:
+            - build-and-test
