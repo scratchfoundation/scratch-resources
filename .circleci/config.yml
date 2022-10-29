@@ -30,21 +30,13 @@ commands:
           name: Setup
           command: |
             npm install
-            npm run build
 
 jobs:
-  build-and-test:
+  build-and-deploy:
     executor: default-executor
     steps:
       - checkout
-      - restore_test_cache
       - setup
-      - save_test_cache
-      
-  deploy:
-    executor: default-executor
-    steps:
-      - checkout
       - run: 
           command: ls
       - aws-s3/sync:
@@ -56,32 +48,19 @@ jobs:
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           from: resources
           to: 's3://scratch-resources-test'
+      
+  
 workflows:
-  build-and-test-workflow:
+  build-and-deploy-workflow:
     when:
-      not:
+      when:
         or:
           - equal: [ master, <<pipeline.git.branch>> ]
-          - equal: [ develop, <<pipeline.git.branch>> ]
-          - matches: { pattern: "^hotfix.*", value: <<pipeline.git.branch>> }
-          - matches: { pattern: "^release.*", value: <<pipeline.git.branch>> }
           - matches: { pattern: "^tsm.*", value: <<pipeline.git.branch>> }
     jobs:
-      - build-and-test
-
-  deploy-workflow:
-    when:
-      or:
-        - equal: [ master, <<pipeline.git.branch>> ]
-        - equal: [ develop, <<pipeline.git.branch>> ]
-        - matches: { pattern: "^hotfix.*", value: <<pipeline.git.branch>> }
-        - matches: { pattern: "^release.*", value: <<pipeline.git.branch>> }
-        - matches: { pattern: "^tsm.*", value: <<pipeline.git.branch>> }
-
-    jobs:
-      - build-and-test
-      - deploy:
+      - build-and-deploy:
           context:
-            - scratch-aws-creds
-          requires:
-            - build-and-test
+              - scratch-aws-creds
+
+
+  
