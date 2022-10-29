@@ -54,7 +54,7 @@ jobs:
           aws-access-key-id: AWS_ACCESS_KEY_ID
           aws-region: AWS_DEFAULT_REGION
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
-          from: ~/projects/resources
+          from: resources
           to: 's3://scratch-resources-test'
 workflows:
   build-and-test-workflow:
