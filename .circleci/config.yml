@@ -40,11 +40,13 @@ jobs:
       - restore_test_cache
       - setup
       - save_test_cache
-
+      
   deploy:
     executor: default-executor
     steps:
       - checkout
+      - run: 
+          command: ls
       - aws-s3/sync:
           arguments: |
             --acl public-read
