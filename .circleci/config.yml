@@ -37,8 +37,6 @@ jobs:
     steps:
       - checkout
       - setup
-      - run: 
-          command: ls
       - aws-s3/sync:
           arguments: |
             --acl public-read \
@@ -47,7 +45,7 @@ jobs:
           aws-region: AWS_DEFAULT_REGION
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           from: resources
-          to: 's3://scratch-resources-test'
+          to: 's3://scratch-resources'
   
 workflows:
   build-and-deploy-workflow:
@@ -55,7 +53,6 @@ workflows:
       when:
         or:
           - equal: [ master, <<pipeline.git.branch>> ]
-          - matches: { pattern: "^tsm.*", value: <<pipeline.git.branch>> }
     jobs:
       - build-and-deploy:
           context:
