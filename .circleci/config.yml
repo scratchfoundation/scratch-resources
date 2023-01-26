@@ -30,6 +30,7 @@ commands:
           name: Setup
           command: |
             npm install
+            npm run build
 
 jobs:
   build-and-deploy:
