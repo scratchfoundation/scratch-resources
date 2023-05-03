@@ -1,7 +1,7 @@
 # scratch-resources
 Source files and images for translators to translate Scratch materials, published
 files for www.
-[![CircleCI](https://circleci.com/gh/LLK/scratch-resources/tree/develop.svg?style=shield&circle-token=8bf55740611abf98152feec3797bac5ee4149c7c)](https://circleci.com/gh/LLK/scratch-resources?branch=develop)
+[![CircleCI](https://circleci.com/gh/LLK/scratch-resources/tree/develop.svg?style=shield&circle-token=8bf55740611abf98152feec3797bac5ee4149c7c)](https://app.circleci.com/pipelines/github/scratchfoundation/scratch-resources)
 
 ## For Scratch Team ##
 After updating any content to be published make sure to flush the fastly cache so that new versions are served, as the resources are cached aggressively.
