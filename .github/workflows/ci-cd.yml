@@ -17,7 +17,7 @@ permissions:
   pull-requests: write # comment on released pull requests
 
 jobs:
-  sync-s3:
+  build-sync-purge:
     runs-on: ubuntu-latest
 
     permissions:
@@ -29,12 +29,11 @@ jobs:
       AWS_REGION: ${{ secrets.AWS_REGION }}
       S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
       TRIGGER_DEPLOY: ${{ startsWith(github.ref, 'refs/heads/master') }}
+      FASTLY_API_TOKEN: ${{ secrets.FASTLY_KEY }}
+      FASTLY_SERVICE_ID: ${{ secrets.FASTLY_SERVICE_ID }}
 
     steps:
       - uses: actions/checkout@v4
-
-      - uses: wagoid/commitlint-github-action@v5
-        if: github.event_name == 'pull_request'
 
       - uses: actions/setup-node@v3
         with:
@@ -68,16 +67,7 @@ jobs:
         run: |
           aws s3 sync resources s3://${{ env.S3_BUCKET_NAME }} $([[ "$TRIGGER_DEPLOY" == "false" ]] && echo "--dryrun")
 
-  fastly-purge-all:
-    runs-on: ubuntu-latest
-    needs: sync-s3
-    if: github.ref == 'refs/heads/master'
-    env:
-      FASTLY_API_TOKEN: ${{ secrets.FASTLY_KEY }}
-      FASTLY_SERVICE_ID: ${{ secrets.FASTLY_SERVICE_ID }}
-    steps:
-      - uses: actions/checkout@v4
-
       - name: Purge Fastly Cache
+        if: github.ref == 'refs/heads/master'
         run: |
           curl -X POST -H "Fastly-Key: ${{ secrets.FASTLY_API_TOKEN }}" https://api.fastly.com/service/${{ secrets.FASTLY_SERVICE_ID }}/purge_all
