@@ -1,0 +1,73 @@
+name: CI/CD
+
+on:
+  workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
+  pull_request: # Runs whenever a pull request is created or updated
+  push: # Runs whenever a commit is pushed to the repository
+    branches: [master]
+
+concurrency:
+  group: "${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}"
+  cancel-in-progress: true
+
+permissions:
+  contents: write # publish a GitHub release
+  pages: write # deploy to GitHub Pages
+  issues: write # comment on released issues
+  pull-requests: write # comment on released pull requests
+
+jobs:
+  build-sync-purge:
+    runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write
+      contents: read
+
+    env:
+      LEGACY_ACCOUNT_OIDC_ROLE: ${{ secrets.LEGACY_ACCOUNT_OIDC_ROLE }}
+      AWS_REGION: ${{ secrets.AWS_REGION }}
+      S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
+      TRIGGER_DEPLOY: ${{ startsWith(github.ref, 'refs/heads/master') }}
+      FASTLY_API_TOKEN: ${{ secrets.FASTLY_KEY }}
+      FASTLY_SERVICE_ID: ${{ secrets.FASTLY_SERVICE_ID }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v3
+        with:
+          cache: "npm"
+          node-version-file: ".nvmrc"
+
+      - name: Info
+        run: |
+          cat <<EOF
+          Node version: $(node --version)
+          NPM version: $(npm --version)
+          GitHub ref: ${{ github.ref }}
+          GitHub head ref: ${{ github.head_ref }}
+          EOF
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v3
+        with:
+          role-to-assume: ${{ env.LEGACY_ACCOUNT_OIDC_ROLE }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Sync "resources" directory with S3
+        env:
+          S3_BUCKET_NAME: ${{ env.S3_BUCKET_NAME }}
+        run: |
+          aws s3 sync resources s3://${{ env.S3_BUCKET_NAME }} $([[ "$TRIGGER_DEPLOY" == "false" ]] && echo "--dryrun")
+
+      - name: Purge Fastly Cache
+        if: github.ref == 'refs/heads/master'
+        run: |
+          curl -X POST -H "Fastly-Key: ${{ secrets.FASTLY_API_TOKEN }}" https://api.fastly.com/service/${{ secrets.FASTLY_SERVICE_ID }}/purge_all
