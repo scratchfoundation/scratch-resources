@@ -29,8 +29,6 @@ jobs:
       AWS_REGION: ${{ secrets.AWS_REGION }}
       S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
       TRIGGER_DEPLOY: ${{ startsWith(github.ref, 'refs/heads/master') }}
-      FASTLY_API_TOKEN: ${{ secrets.FASTLY_KEY }}
-      FASTLY_SERVICE_ID: ${{ secrets.FASTLY_SERVICE_ID }}
 
     steps:
       - uses: actions/checkout@v4
@@ -70,4 +68,4 @@ jobs:
       - name: Purge Fastly Cache
         if: github.ref == 'refs/heads/master'
         run: |
-          curl -X POST -H "Fastly-Key: ${{ secrets.FASTLY_API_TOKEN }}" https://api.fastly.com/service/${{ secrets.FASTLY_SERVICE_ID }}/purge_all
+          curl -X POST -H "Fastly-Key: ${{ secrets.FASTLY_KEY }}" https://api.fastly.com/service/${{ secrets.FASTLY_SERVICE_ID }}/purge_all
