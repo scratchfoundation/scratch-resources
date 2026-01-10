@@ -16,7 +16,7 @@
         "url": "git+ssh://git@github.com/scratchfoundation/scratch-resources.git"
     },
     "devDependencies": {
-        "eslint": "4.18.2",
+        "eslint": "9.32.0",
         "lodash.merge": "4.6.2"
     }
 }
